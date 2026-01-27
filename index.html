@@ -162,6 +162,27 @@
             margin-top: 8px;
             margin-bottom: 4px;
         }
+                    .download-btn {
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #000;
+                color: #fff;
+                padding: 12px 26px;
+                border-radius: 30px;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 600;
+                box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+                transition: all 0.3s ease;
+                z-index: 999;
+            }
+
+            .download-btn:hover {
+                background-color: #0066cc;
+                transform: translateX(-50%) scale(1.05);
+            }
         
         @media screen and (max-width: 768px) {
             .container {
@@ -195,6 +216,7 @@
             font-weight: 700;
             font-style: normal;
             }
+
 
         }
     </style>
@@ -248,7 +270,7 @@
             <div class="job">
                 <h3>Sr. Business Intelligence Developer</h3>
                 <div class="company-info">
-                    <span class="company">National Center for Non-profit Sector | <span style="font-family: Aref Ruqaa;">المركز الوطني لتنمية القطاع غير الربحي</span></span>
+                    <span class="company">National Center for Non-profit Sector | <span style="font-family: Aref Ruqaa; font-style: normal;">المركز الوطني لتنمية القطاع غير الربحي</span></span>
                     <span class="date-location">Riyadh, KSA | Aug 2023 - Present</span>
                 </div>
                 <div class="job-description">
@@ -272,7 +294,7 @@
             <div class="job">
                 <h3>Business Intelligence Developer</h3>
                 <div class="company-info">
-                    <span class="company">Developers & Designers | <span style="font-family: Aref Ruqaa;">مطورون و مصممون</span></span>
+                    <span class="company">Developers & Designers | <span style="font-family: Aref Ruqaa; font-style: normal;">مطورون و مصممون</span></span>
                     <span class="date-location">Riyadh, KSA | Dec 2021 - Aug 2023</span>
                 </div>
                 <div class="job-description">
@@ -289,7 +311,7 @@
             <div class="job">
                 <h3>Freelance Web Developer</h3>
                 <div class="company-info">
-                    <span class="company">Hsoub | <span style="font-family: Aref Ruqaa;">حسوب</span></span>
+                    <span class="company">Hsoub | <span style="font-family: Aref Ruqaa; font-style: normal;">حسوب</span></span>
                     <span class="date-location">Riyadh, KSA | Mar 2016 - Dec 2021</span>
                 </div>
                 <div class="job-description">
@@ -344,6 +366,11 @@
                 </ul>
             </div>
         </section>
+        <a href="abdullah_ahmed_bi.pdf" class="download-btn" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+
     </div>
+    
 </body>
 </html>
